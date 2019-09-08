@@ -1,0 +1,8 @@
+generates package.json
+    > yarn init
+generates tsconfig.json
+    > tsc --init
+To check syntax, find problems, and enforce code style
+    > eslint --init
+
+    > yarn global add angular typescript eslint nodemon ts-node@4

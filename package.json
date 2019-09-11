@@ -7,7 +7,6 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node --inspect=6969 src/index.ts",
-    "dev": "ts-node-dev --respawn --transpileOnly src\\index.ts",
     "prod": "tsc && node .\\dist\\index.js"
   },
   "devDependencies": {
@@ -21,7 +20,8 @@
     "typescript": "^3.6.2"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "http": "^0.0.0",
-    "express": "^4.17.1"
+    "cors": "^2.8.5"
   }
 }

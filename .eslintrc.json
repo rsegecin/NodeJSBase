@@ -22,6 +22,8 @@
     "rules": {
         "linebreak-style": "off",
         "no-console": "off",
-        "import/no-unresolved": "off"
+        "import/no-unresolved": "off",
+        "no-plusplus": "off",
+        "no-unused-vars": "warn"
     }
 }
